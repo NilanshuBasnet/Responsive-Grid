@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Grid</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="grid gap-2 m-2 sm:grid-cols-12 sm:grid-rows-12 min-h-screen text-center">
+        <div class="p-2 rounded bg-orange-500 sm:col-span-12">Header</div>
+        <div class="p-2 rounded bg-rose-500 sm:col-span-2 sm:row-span-10">Left Sidebar</div>
+        <div class="p-2 rounded bg-violet-500 sm:col-span-8">Banner</div> 
+        <div class="p-2 rounded bg-amber-500 sm:col-span-2 sm:row-span-10">Right Sidebar</div>
+        <div class="p-2 rounded bg-emerald-500 sm:col-span-8 sm:row-span-8 sm:h-auto justify-center items-center flex h-[300px]">Main Content</div>
+        <div class="p-2 rounded bg-violet-500 sm:col-span-8">Lower Content</div>
+        <div class="p-2 rounded bg-slate-800 sm:col-span-12 text-white">Footer</div>
+      
+      </div>
+</body>
+</html>
