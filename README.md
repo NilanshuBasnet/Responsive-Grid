@@ -4,7 +4,13 @@ This project demonstrates a responsive layout built using Tailwind CSS. The layo
 
 ## Screenshots
 ### Mobile View
-![mobileView](https://github.com/user-attachments/assets/89b8b0cb-396a-4f0c-b671-305e688ced7a)
+<img src="https://github.com/user-attachments/assets/929330e2-f8eb-425b-81c0-f199692443a9" height="500">
+
 
 ### Desktop View
 ![fullScreen](https://github.com/user-attachments/assets/4690a512-98f7-484e-b0ab-5a8727d75f9c)
+
+## Demo
+Go to [Tailwind Play](https://play.tailwindcss.com/) and paste the code from index.html there.
+
+![image](https://github.com/user-attachments/assets/eabb28de-6eb9-4d15-bcc5-d6a88a57716c)
